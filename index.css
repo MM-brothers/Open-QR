@@ -1,0 +1,52 @@
+body{background-image: url(img/bg.png); font-family: sans-serif; background-size: cover;}
+h1{
+    text-align: center; 
+    margin-top: 50px; 
+    font-size: 50px;
+    background: linear-gradient(to right, #ffffff, #76d1e7, #ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    text-align: center; 
+    color: rgb(132, 226, 245); 
+    margin-top: -20px; 
+    font-size: 40px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.android{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 45px;
+}
+.links img{
+    width: 150px;
+    height: 150px;
+}
+h3{
+    color: white; 
+    margin-bottom: 0;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.dwl-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background-image: url(img/dwl-menu-bg.png);
+    border: #76d1e7 5px solid;
+    border-radius: 20px;
+    width: 600px;
+    margin: auto;
+}
+.links a.a-form{
+    color: rgb(61, 182, 238);
+    filter: drop-shadow(1px 1px 5px rgb(14, 156, 156));
+}
