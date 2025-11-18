@@ -46,9 +46,24 @@ h3{
     width: 600px;
     margin: auto;
 }
-.links a.a-form{
+a {
     color: rgb(61, 182, 238);
     filter: drop-shadow(1px 1px 5px rgb(14, 156, 156));
 
 }
 strong {text-decoration: underline;}
+p {color: rgb(189, 222, 238); filter: drop-shadow(1px 1px 7px rgb(14, 156, 156)); margin-left: 10px;}
+.description {
+    color: white; 
+    font-size: 20px; 
+    width: 750px; 
+    margin: auto; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    background-image: url(img/bg-grey-camo.png);
+    border: #76d1e7 5px solid;
+    border-radius: 20px;
+}
+.description h3 {text-align: center;}
+.descrpion a {color: rgb(173, 241, 243);}
+.description a:hover {color: rgb(138, 138, 138); filter: drop-shadow(1px 1px 7px rgb(54, 54, 54)); margin-left: 10px;}
