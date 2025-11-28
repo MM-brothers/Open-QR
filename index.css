@@ -3,6 +3,8 @@ body{
     font-family: sans-serif; 
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
 }
 h1{
     text-align: center; 
